@@ -1,0 +1,40 @@
+.collapse-enter {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  }
+  
+  .collapse-enter-active {
+    max-height: 500px; 
+    opacity: 1;
+  }
+  
+  .collapse-exit {
+    max-height: 500px;
+    opacity: 1;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  }
+  
+  .collapse-exit-active {
+    max-height: 0;
+    opacity: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .collapse-title {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .collapse-content {
+    padding: 20px;
+  }
+  
